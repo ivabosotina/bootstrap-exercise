@@ -2265,6 +2265,193 @@ SIZ: none sm lg
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
 
+<!--Width
+w-{TYP}
+TYP: 25 50 75 100 auto mw-100 vw-100
+-->
+
+<h1>Widths</h1>
+
+<div class="bg-dark">
+    <div class="w-25 bg-primary text-white p-2">w-25</div>
+    <div class="w-50 bg-success text-white p-2">w-50</div>
+    <div class="w-75 bg-warning text-white p-2">w-75</div>
+    <div class="w-100 bg-danger text-white p-2">w-100</div>
+    <div class="w-auto bg-info text-white p-2">w-auto</div>
+    <div style="width:500px" class="mw-100 bg-secondary text-white p-2">mw-100</div>
+</div>
+<div class="vw-100 bg-secondary text-white p-2">vw-100</div>
+
+
+<!--Height
+h-{TYP}
+TYP: 25 50 75 100 auto mh-100 vh100
+-->
+
+<h1 class="text-info">Heights</h1>
+
+<div class="bg-dark p-2 vh-100">
+    <div class="h-25 d-inline-block bg-primary text-white p-2">w-25</div>
+    <div class="h-50 d-inline-block bg-success text-white p-2">h-50</div>
+    <div class="h-75 d-inline-block bg-warning text-white p-2">h-75</div>
+    <div class="h-100 d-inline-block bg-danger text-white p-2">h-100</div>
+    <div class="h-auto d-inline-block bg-info text-white p-2">h-auto</div>
+    <div style="height:600px;" class="mh-100 d-inline-block bg-secondary text-white p-2">mh-100</div>
+</div>
+
+<!--Aspect Ratios
+ratio
+
+ratio-{VAL}
+VAL: 1x1 4x3 16x9 21x9
+-->
+
+<h1>Ratios</h1>
+
+<h4 class="text-secondary">Normal</h4>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TLb0FyS2p2c" title="YouTube video player"
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+
+<hr>
+
+<h4 class="text-secondary">ratio-1x1</h4>
+
+<div class="ratio ratio-1x1">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/TLb0FyS2p2c" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+</div>
+
+<hr>
+
+<h4 class="text-secondary">ratio-4x3</h4>
+
+<div class="ratio ratio-4x3">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/TLb0FyS2p2c" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+</div>
+
+<hr>
+
+<h4 class="text-secondary">ratio-16x9</h4>
+
+<div class="ratio ratio-16x9">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/TLb0FyS2p2c" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+</div>
+
+<hr>
+
+<h4 class="text-secondary">ratio-21x9</h4>
+
+<div class="ratio ratio-21x9">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/TLb0FyS2p2c" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+</div>
+
+
+<!---Overflow
+overflow-{TYP}
+TYP: auto hidden visible scroll-->
+<h1 class="text-info">Overflow</h1>
+
+<div class="d-flex">
+    <div class="overflow-auto bg-info p-3" style="height:150px;">
+        <h5>overflow-auto</h5>
+        <p>While robots have evolved to be able to do pretty much anything, most androids and bots work in the
+            construction and manufacturing field as force multipliers. As experts in lifting, moving, and
+            nuts-and-bolting, the robotic population is an ideal match for industry and repetitive tasks.</p>
+    </div>
+
+    <div class="overflow-hidden bg-info p-3" style="height:150px;">
+        <h5>overflow-hidden</h5>
+        <p>While robots have evolved to be able to do pretty much anything, most androids and bots work in the
+            construction and manufacturing field as force multipliers. As experts in lifting, moving, and
+            nuts-and-bolting, the robotic population is an ideal match for industry and repetitive tasks.</p>
+    </div>
+
+    <div class="overflow-visible bg-info p-3" style="height:150px;">
+        <h5>overflow-visible</h5>
+        <p>While robots have evolved to be able to do pretty much anything, most androids and bots work in the
+            construction and manufacturing field as force multipliers. As experts in lifting, moving, and
+            nuts-and-bolting, the robotic population is an ideal match for industry and repetitive tasks.</p>
+    </div>
+
+    <div class="overflow-scroll bg-info p-3" style="height:150px;">
+        <h5>overflow-scroll</h5>
+        <p>While robots have evolved to be able to do pretty much anything, most androids and bots work in the
+            construction and manufacturing field as force multipliers. As experts in lifting, moving, and
+            nuts-and-bolting, the robotic population is an ideal match for industry and repetitive tasks.</p>
+    </div>
+</div>
+
+<!--Stretched Link
+stretched-link
+
+-->
+
+<h1>Stretched Link</h1>
+
+<div class="position-relative bg-warning p-4 text-white" style="width:500px">
+    <img class="rounded img-fluid" src="https://pixelprowess.com/i/flight.jpg" alt="Robots in the Park">
+    <h3 class="mt-2">Dolores</h3>
+    <p class="text-wrap">While robots have evolved to be able to do pretty much anything, most androids and bots work in
+        the construction and manufacturing field as force multipliers.</p>
+    <a href="#" class="stretched-link text-decoration-none d-inline-block bg-danger rounded-2 text-white px-2 py-1">
+        Bubbles
+    </a>
+</div>
+
+
+
+<!--User Select
+user-select-{TYP}
+TYP: auto all -->
+
+<h1>User Select</h1>
+<div class="d-flex">
+    <div class="position-relative bg-primary p-4 text-white">
+        <h3 class="mt-2">user-select-auto</h3>
+        <p class="user-select-auto">While robots have evolved to be able to do pretty much anything, most androids and
+            bots work in the construction and manufacturing field as force multipliers.</p>
+    </div>
+    <div class="position-relative bg-danger p-4 text-white">
+        <h3 class="mt-2">user-select-all</h3>
+        <p class="user-select-all">While robots have evolved to be able to do pretty much anything, most androids and
+            bots work in the construction and manufacturing field as force multipliers.</p>
+    </div>
+    <div class="position-relative bg-success p-4 text-white">
+        <h3 class="mt-2">user-select-none</h3>
+        <p class="user-select-none">While robots have evolved to be able to do pretty much anything, most androids and
+            bots work in the construction and manufacturing field as force multipliers.</p>
+    </div>
+</div>
+
+<!--Pointer Events
+pe-{TYP}
+none auto-->
+
+<h1>User Select</h1>
+<div class="d-flex">
+    <div class="position-relative bg-secondary p-4 text-white">
+        <h3 class="mt-2">pe-none</h3>
+        <p>While <a href="#" tabindex="-1" aria-disabled="true" class="pe-none text-warning">robots have evolved</a> to
+            be able to do pretty much anything, most androids and bots work in the construction and manufacturing field
+            as force multipliers.</p>
+    </div>
+    <div class="pe-none position-relative bg-warning p-4 text-white">
+        <h3 class="mt-2">pe-auto</h3>
+        <p>While <a href="#" class="pe-auto text-secondary">robots have evolved</a> to be able to do pretty much
+            anything, most androids and bots work in the construction and manufacturing field as force multipliers.</p>
+    </div>
+</div>
+
+
+
 
 
 </html>
